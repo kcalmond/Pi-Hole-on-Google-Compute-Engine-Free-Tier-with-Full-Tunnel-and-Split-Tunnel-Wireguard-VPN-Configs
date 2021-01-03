@@ -30,7 +30,7 @@ Go to https://cloud.google.com and click **Console** at the top right if you hav
 1. Click the Hamburger Menu at the top left: <br><img src="./images/screenshots/1.png" width="294">
 2. Click **Compute Engine**: <br><img src="./images/screenshots/2.png" width="274">
 3. Select **VM instances**: <br><img src="./images/screenshots/3.png" width="408">
-4. Create a Project if you don't already have one: <br><img src="./images/screenshots/4.png" width="499">
+4. Create a Project if you don't already have one: <br><img src="./images/screenshots/4.png" width="499"><br><mark>ALMONDNET: used "AlmondNet" project
 5. Enable billing for this Project if you haven't already: <br><img src="./images/screenshots/6.png" width="427">
 - Compute Engine will begin initializing: <br><img src="./images/screenshots/7.png" width="232">
 
@@ -43,6 +43,7 @@ Go to https://cloud.google.com and click **Console** at the top right if you hav
 Be aware of the limitations of the **[Free Usage Tier](https://cloud.google.com/free/)**:
 
 - 1 vCPU + 614MB RAM f1-micro virtual machine instance per month in one of the following US regions:
+  - <mark>ALMONDNET: used `us-west2` (Los Angeles)</mark>
   - Oregon: `us-west1`
   - Iowa: `us-central1`
   - South Carolina: `us-east1`
@@ -88,7 +89,7 @@ Be aware of the limitations of the **[Free Usage Tier](https://cloud.google.com/
       <li>Name: <code>pi-hole-ipv4</code> and click <b>Reserve</b> <br><img src="./images/screenshots/14.png" width="790"></li>
     </ul>
   </li>
-<li>You can log into your Virtual Machine via SSH in a Browser by clicking the SSH button. Make note of your External IP (it will be different from the screenshot below).<br><img src="./images/screenshots/15.png" width="735"></li>
+<li>You can log into your Virtual Machine via SSH in a Browser by clicking the SSH button. Make note of your External IP (it will be different from the screenshot below).<mark>ALMONDNET...</mark><br><img src="./images/screenshots/15.png" width="735"></li>
 <li>Click the Hamburger Menu at the top left, click <b>VPC Network</b> and click <b>Firewall</b>.</li>
 <li>Click <b>Create Firewall Rule</b> at the top center of the page.
   <ul>
